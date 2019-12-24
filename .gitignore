@@ -1,48 +1,58 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
-/dist
-/tmp
-/out-tsc
-/out
-/build
-/classes
-/Debug
-/Release
-/x64
-/Bin
-/Obj
-/target
+dist
+tmp
+out-tsc
+out
+build
+classes
+Debug
+Release
+x64
+bin
+gen
+Obj
+target
+proguard
+nbproject
+captures
 
 # dependencies
-/node_modules
+node_modules
+bower_components
+.sass-cache
 
 # IDEs and editors
-*.idea
-*.project
-*.classpath
-*.c9
-*.launch
-*.settings
-*.sublime-workspace
-*.iml
-
-# IDE - VSCode
-.vscode/*
+.project
+.classpath
+.settings
+.springBeans
+.idea
+.iml
+.ipr
+.iws
+.c9
+.launch
+.sublime-workspace
+.vscode
+.externalNativeBuild
+import-summary.txt
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
 
 # misc
-/.sass-cache
-/connect.lock
-/coverage
-/libpeerconnection.log
+connect.lock
+coverage
+libpeerconnection.log
 npm-debug.log
 yarn-error.log
 testem.log
-/typings
+local.properties
+typings
+
 
 # System Files
 .DS_Store
@@ -58,20 +68,21 @@ Thumbs.db
 *.ctxt
 
 # Mobile Tools for Java (J2ME)
-.mtj.tmp/
+.mtj
+.tmp
 
 # Package Files #
-*.ear
-*.tar.gz
-*.rar
-*.cmd
-*.classpath
-*.settings
-*.project
-*.mvn
-*.gradle
-*.nupkg
-*.DS_Store
+.ear
+.tar.gz
+.rar
+.cmd
+.mvn
+.gradle
+.nupkg
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Spring Bootstrap artifacts
+dependency-reduced-pom.xml
+README.html
